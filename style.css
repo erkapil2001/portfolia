@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&family=Poppins:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&family=Poppins:ital,wght@0,300;0,500;1,300;1,400;1,500&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.underline{
+  background-color: azure;
+
+}
+/* sidebar design  */
+.sidebar {
+  background-color: gray;
+  width: 434px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+/* only li design */
+.sidebar nav li {
+  list-style-type: none;
+  font-size: 22px;
+  padding: 33px 0;
+}
+/* for design a href (a) */
+ .sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+/* main bar design */
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+  font-family: "Fira Sans", sans-serif;
+  margin: 20px 10px;
+  
+}
+.container {
+  display: flex;
+}
+.infocontainer {
+  /* background-color: pink; */
+  height: 58vh;
+  width: 80vw;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+.hello {
+  font-size: 55px;
+}
+.name span{
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+  background-color: rgba(195, 195, 187, 0.526);
+  
+}
+.about {
+  font-size: 30px;
+}
+.moreabout p{
+  font-size: 25px;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 23px;
+  
+}
+.buttons {
+  margin-top: 34px;
+}
+.buttons button {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: rgb(42, 38, 153);
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: white;
+  background-color: rgb(11, 32, 171);
+}
+
+.devpic img {
+  height: 58vh;
+}
+
+.contactform {
+  font-family: "Fira Sans", sans-serif;
+  /* padding-top: 5px; */
+  padding: 60px 35px;
+  /* border: 2px solid red; */
+}
+.contactform h1 {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  /* padding-top: 50px; */
+  font-weight: bold;
+  color: black;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+  
+}
+#form-check {
+  display: flex;
+  flex-direction: row;
+}
+#form-check-input {
+  width: 20px;
+  margin: 3px 0;
+  /* background-color: blue; */
+}
+.b1{
+  width: 50px;
+  /* border: 2px solid green; */
+  /* margin:5px ; */
+}
+
+#emailHelp {
+  font-size: 8px;
+  color: rgb(236, 81, 15);
+  margin: 0 5px;
+}
+/* hover effect    ======    ----------------------------- ---------------    bootstrap class */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-github {
+  background: #007bb5;
+  color: white;
+}
+
+/* blog */
+
+.blogitem{
+margin: 20px;
+font-family: "Fira Sans", sans-serif;
+}
+
+.blogcontainer h1{
+  font-family: "Fira Sans", sans-serif;
+  margin: 20px;
+}
+.blogitem p{
+font-family: "Fira Sans", sans-serif;
+}
+
+
+/* intro */
+
+.intro h2{
+  font-family:"Fira Sans", sans-serif; 
+  margin: 12px;
+}
+
+.intro p{
+  font-family:"Fira Sans", sans-serif; 
+  margin: 12px;
+}
+
+.skill{
+  font-family:"Fira Sans", sans-serif; 
+  margin: 8px 12px;
+  font: bold;
+}
+
+@media (max-width: 1000px){
+*{
+    font-size:x-large;
+    font-weight: bolder;
+    color: rgb(63, 63, 236);
+  }
+
+ .devinfo{
+  display: none; 
+  }
+}
+@media (max-width: 800px){
+  .sidebar{
+    display: none;
+  }
+  .devinfo{
+    display: inline-block;
+  }
+}
+.smain{
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+.sheading{
+ width: 800px;
+ height: 700px;  
+ margin: 5px 33px;
+}
+.tech{
+ display: flex;
+ justify-content: space-between;
+
+}
+.sheading h2{
+  text-align: center;
+}
+
